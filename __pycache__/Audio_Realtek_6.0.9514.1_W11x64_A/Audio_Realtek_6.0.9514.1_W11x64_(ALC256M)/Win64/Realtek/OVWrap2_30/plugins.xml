@@ -1,8 +1,0 @@
-<ie>
-    <plugins>
-        <plugin name="CPU" location="openvino_intel_cpu_plugin.dll">
-        </plugin>
-        <plugin name="GNA" location="openvino_intel_gna_plugin.dll">
-        </plugin>
-    </plugins>
-</ie>
