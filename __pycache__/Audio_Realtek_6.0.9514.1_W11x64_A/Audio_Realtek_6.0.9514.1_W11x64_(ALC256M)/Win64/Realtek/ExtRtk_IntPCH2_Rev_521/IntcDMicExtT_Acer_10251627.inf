@@ -1,0 +1,110 @@
+[Version]
+Signature = "$Windows NT$"
+Class = Extension
+ClassGuid = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider = Realtek
+ExtensionId = {1AF2794D-F721-4BC1-AA31-6E2E5856BCA4}
+CatalogFile = IntcDMicExt.cat
+DriverVer = 05/09/2023, 09.21.3690.521
+PnpLockDown = 1
+
+[Manufacturer]
+"Intel(R) Corporation" = Intel, NTAMD64.10.0...16273
+
+[Intel.NTAMD64.10.0...16273]
+%Device.ExtensionDesc% = IntcAudModel_10251627, INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_16271025&REV_10EC
+%Device.ExtensionDesc% = IntcAudModel_10251627, INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_161D1025&REV_10EC
+%Device.ExtensionDesc% = IntcAudModel_10251627, INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_161E1025&REV_10EC
+%Device.ExtensionDesc% = IntcAudModel_10251627, INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_16171025&REV_10EC
+%Device.ExtensionDesc% = IntcAudModel_10251627, INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_161F1025&REV_10EC
+%Device.ExtensionDesc% = IntcAudModel_10251627, INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_16161025&REV_10EC
+
+[IntcAudModel_10251627]
+AddReg = Volume_Customize_10251627.AddReg
+
+[IntcAudModel_10251627.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_1%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_1%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_2%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_2%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_4%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_4%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_1%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_1%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_2%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_2%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_4%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_4%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_1_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_1_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_2_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_2_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_4_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_4_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_1_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_1_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_2_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_2_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_4_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_4_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_1%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_1%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_2%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_2%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_4%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_4%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_1_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_1_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_2_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_2_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_4_24%,IntcAudModel_10251627.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_4_24%,IntcAudModel_10251627.DmicInput.Topo
+
+[IntcAudModel_10251627.DmicInput.Topo]
+AddReg = ApoVol_Customize_Full.AddReg
+
+[Volume_Customize_10251627.AddReg]
+HKR,GlobalSettings,FakeVolumeNodeEnable,1,01,00,00,00
+HKR,GlobalSettings,MinimumFakeVolume,1,00,00,A0,FF
+HKR,GlobalSettings,MaximumFakeVolume,1,00,00,1E,00
+HKR,GlobalSettings,DefaultFakeVolume,1,00,00,0C,00
+HKR,GlobalSettings,StepFakeVolume,1,00,00,01,00
+
+[ApoVol_Customize_Full.AddReg]
+HKR,"EP\\0","{E37B93D8-766D-4182-9EC0-C3B472D044D9},0",0x00010001,1
+HKR,"EP\\0","{E37B93D8-766D-4182-9EC0-C3B472D044D9},1",0x00010001,1
+
+[Strings]
+KSCATEGORY_AUDIO = "{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER = "{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE = "{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_TOPOLOGY = "{DDA54A40-1E4C-11D1-A050-405705C10000}"
+
+KSNAME_DmicIn1.Topo_1 = "IntcDMicTopo_1_48_16_D0"
+KSNAME_DmicIn1.Topo_2 = "IntcDMicTopo_2_48_16_D0"
+KSNAME_DmicIn1.Topo_4 = "IntcDMicTopo_4_48_16_D0"
+KSNAME_DmicIn2.Topo_1 = "IntcDMicTopo_1_48_16_D1"
+KSNAME_DmicIn2.Topo_2 = "IntcDMicTopo_2_48_16_D1"
+KSNAME_DmicIn2.Topo_4 = "IntcDMicTopo_4_48_16_D1"
+KSNAME_DmicIn1.Topo_1_24 = "IntcDMicTopo_1_48_24_D0"
+KSNAME_DmicIn1.Topo_2_24 = "IntcDMicTopo_2_48_24_D0"
+KSNAME_DmicIn1.Topo_4_24 = "IntcDMicTopo_4_48_24_D0"
+KSNAME_DmicIn2.Topo_1_24 = "IntcDMicTopo_1_48_24_D1"
+KSNAME_DmicIn2.Topo_2_24 = "IntcDMicTopo_2_48_24_D1"
+KSNAME_DmicIn2.Topo_4_24 = "IntcDMicTopo_4_48_24_D1"
+KSNAME_DmicIn.Topo_new_1 = "IntcDMicTopo_1 _48_16_0"
+KSNAME_DmicIn.Topo_new_2 = "IntcDMicTopo_2 _48_16_0"
+KSNAME_DmicIn.Topo_new_4 = "IntcDMicTopo_4 _48_16_0"
+KSNAME_DmicIn.Topo_new_1_24 = "IntcDMicTopo_1 _48_24_0"
+KSNAME_DmicIn.Topo_new_2_24 = "IntcDMicTopo_2 _48_24_0"
+KSNAME_DmicIn.Topo_new_4_24 = "IntcDMicTopo_4 _48_24_0"
+
+Device.ExtensionDesc = "Intel Device Extension"
+DiskId1              = "Intel Device Extension Installation Disk"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+
+REALTEK_APO_CONTEXT_GUID = "{12325C6D-6D93-4AB3-BFF6-D04968D361DD}"
+

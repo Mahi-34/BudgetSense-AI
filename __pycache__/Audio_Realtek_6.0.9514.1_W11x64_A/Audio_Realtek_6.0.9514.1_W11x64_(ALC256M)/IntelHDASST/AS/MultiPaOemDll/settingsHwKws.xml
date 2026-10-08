@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <KnownDetectionEvents>
+    <DetectionEventEx>
+      <DetectionEvent>
+        <Id>{F87777A4-D34C-4C47-8E4B-45ED03E61AB0}</Id>
+        <ProviderId>{3285089F-DC96-4CA4-B86F-5AA44B50C287}</ProviderId>
+        <Name>Cortana</Name>
+      </DetectionEvent>
+      <Acronym>ms</Acronym>
+    </DetectionEventEx>
+  </KnownDetectionEvents>
+</Settings>
